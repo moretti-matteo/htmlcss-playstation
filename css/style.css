@@ -1,3 +1,11 @@
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 10;
+    width: 100vw;
+}
+
 .header-top{
     display: flex;
     background: #000;
@@ -14,6 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #fff;
 }
 
 
@@ -42,5 +51,54 @@
     border-radius: 20px;
 }
 
+.banner-img{
+    background: url("../img/jumbo-bg.png");
+    position: relative;
+    min-height: 620px;
+    background-position: center;
+    
+}
 
+
+
+.navbar{
+    padding: 0;
+}
+
+main{
+    padding-top:90px;
+}
+
+.hero{
+    margin-bottom: 100px;
+    border:1px solid red;
+    overflow-x: hidden;
+}
+
+.img-content > img{
+    width: 50%;
+    height: auto;
+
+}
+
+.img-content{
+    position: absolute;
+    bottom:0;
+    left:0;
+    color:white;
+    margin-bottom: 30px;
+}
+
+.img-content > *{
+    margin-top:30px;
+}
+
+.thumbnail{
+    /* margin:20px 5px; */
+}
+
+.img-thumbnail{
+    border:0;
+    border-radius: 20px;
+}
 
