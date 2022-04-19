@@ -1,0 +1,46 @@
+.header-top{
+    display: flex;
+    background: #000;
+    justify-content: flex-end;
+    padding: 7px;
+}
+
+.header-top .sony-logo{
+    max-width: 80px;
+}
+
+.header-bottom{
+    padding-right: 7px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.hedaer-bottom-right{
+    display: flex;
+    align-items: center;
+    
+}
+
+.hamburger-menu{
+    width: 40px;
+    height: 35px;
+    background: none;
+    padding: 5px;
+}
+
+.accedi{
+    margin:0 20px 0 10px;
+}
+
+.search{
+    padding: 10px;
+}
+
+.border-radius{
+    border-radius: 20px;
+}
+
+
+
