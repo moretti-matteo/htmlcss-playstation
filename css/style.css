@@ -75,7 +75,7 @@ main{
     overflow-x: hidden;
 }
 
-.img-content > img{
+.img-content img{
     width: 50%;
     height: auto;
 
@@ -93,9 +93,7 @@ main{
     margin-top:30px;
 }
 
-.thumbnail{
-    /* margin:20px 5px; */
-}
+
 
 .img-thumbnail{
     border:0;
