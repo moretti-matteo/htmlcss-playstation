@@ -192,11 +192,10 @@ img.ps5-image{
 /* PS PLUS SECTION */
 .ps-plus{
     background-color: #bebcbb;
-    border:1px solid green;
     margin-bottom: 60px;
 }
 
-.ps-plus-logo > img{
+.ps-plus-logo > img,.ps-now-logo > img{
     width: 60%;
 }
 
@@ -204,7 +203,7 @@ img.ps5-image{
     padding-top: 40px;
 }
 
-.desc-ps-plus{
+.desc-ps-plus,.desc-ps-now{
     font-weight: 500;
     margin:20px auto;
 }
@@ -218,12 +217,16 @@ img.ps5-image{
 }
 
 .april-monthly-games{
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
 
 /* DISCOUNT SECTION */
+
+.discount{
+    margin-bottom:60px;
+}
 .desc-discount{
     text-align: center;
 }
@@ -234,4 +237,48 @@ img.ps5-image{
 .discount img{
     width: 100%;
     height: auto;
+}
+
+
+.ps-now{
+    background-color: #080d14;
+    color:white;
+}
+
+/* SOCIALS */
+.socials{
+    margin-bottom: 100px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #00439c;
+    padding-top: 50px;
+    color:white;
+}
+
+.region-ico{
+    width: 15px;
+    height: auto;
+    margin-right:10px;
+}
+
+.ps-logo{
+    margin-bottom: 20px;
+}
+
+.footer-top nav ul{
+    list-style-type: none;
+}
+.sie-image{
+    width: 120px;
+}
+
+.footer-bottom{
+    margin-top:30px;
+    padding-bottom: 30px;
+}
+
+.footer-bottom i{
+    font-size: 13px;
 }
