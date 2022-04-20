@@ -178,7 +178,6 @@ img.ps5-image{
 /* PS4 SECTION */
 .ps4-section{
     margin-bottom: 50px;
-    border:1px solid magenta;
 }
 
 .desc-ps4{
@@ -194,6 +193,7 @@ img.ps5-image{
 .ps-plus{
     background-color: #bebcbb;
     border:1px solid green;
+    margin-bottom: 60px;
 }
 
 .ps-plus-logo > img{
@@ -207,10 +207,9 @@ img.ps5-image{
 .desc-ps-plus{
     font-weight: 500;
     margin:20px auto;
-
 }
 
-.btn-secondary{
+.ps-plus .btn-secondary{
     background-color: #d9dadc;
     color:rgb(2, 65, 255);
     font-weight: 500;
@@ -219,6 +218,20 @@ img.ps5-image{
 }
 
 .april-monthly-games{
+    width: 100%;
+    height: auto;
+}
+
+
+/* DISCOUNT SECTION */
+.desc-discount{
+    text-align: center;
+}
+.desc-discount p{
+    margin:30px 0 40px 0;
+}
+
+.discount img{
     width: 100%;
     height: auto;
 }
