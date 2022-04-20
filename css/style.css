@@ -1,9 +1,11 @@
+
+
 header{
     position: fixed;
     top:0;
     left:0;
     z-index: 10;
-    width: 100vw;
+    width: 100%;
 }
 
 .header-top{
@@ -52,14 +54,16 @@ header{
 }
 
 .banner-img{
-    background: url("../img/jumbo-bg.png");
     position: relative;
     min-height: 620px;
-    background-position: center;
-    
 }
 
+.hero > .banner-img{
+    background: url("../img/jumbo-bg.png");
+    background-position: center;  
+    background-size: cover;
 
+}
 
 .navbar{
     padding: 0;
@@ -75,7 +79,7 @@ main{
     overflow-x: hidden;
 }
 
-.img-content img{
+.img-content .returnal-logo{
     width: 50%;
     height: auto;
 
@@ -100,3 +104,73 @@ main{
     border-radius: 20px;
 }
 
+
+/* PS5 SECTION */
+/* PS5 FIRST SECTION*/
+.ps5-section{
+    margin-bottom:25px;
+}
+
+.desc-ps5{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.desc-ps5 p:first-child{
+    color:rgb(2, 65, 255);
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.console-ps5 button{
+    margin-top:15px;
+}
+
+
+/* PS5 SECOND SECTION */
+img.ps5-image{
+    width: 100%;
+}
+
+.carousel img{
+    width: 100%;
+}
+
+.carousel div:first-child img{
+    border-bottom: 2px solid #57a2df;
+}
+
+
+/* IT TAKES TWO SECTION */
+
+
+.it-takes-two > .banner-img{
+    background: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;  
+    background-size: cover;
+}
+
+.img-content .it-takes-two-logo{
+    width: 50%;    
+    height: auto;
+}
+
+.it-takes-two h1{
+    margin-bottom: 30px;
+}
+
+/* NEW RELEASE SECTION */
+.new-games{
+    background-color: #0b1009;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.new-games img{
+    width: 100%;
+}
+
+.new-games sup{
+    font-size: 10px;
+}
