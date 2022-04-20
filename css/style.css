@@ -174,3 +174,51 @@ img.ps5-image{
 .new-games sup{
     font-size: 10px;
 }
+
+/* PS4 SECTION */
+.ps4-section{
+    margin-bottom: 50px;
+    border:1px solid magenta;
+}
+
+.desc-ps4{
+    text-align: center;
+
+}
+
+.ps4-section img{
+    width: 100%;
+}
+
+/* PS PLUS SECTION */
+.ps-plus{
+    background-color: #bebcbb;
+    border:1px solid green;
+}
+
+.ps-plus-logo > img{
+    width: 60%;
+}
+
+.ps-plus-logo{
+    padding-top: 40px;
+}
+
+.desc-ps-plus{
+    font-weight: 500;
+    margin:20px auto;
+
+}
+
+.btn-secondary{
+    background-color: #d9dadc;
+    color:rgb(2, 65, 255);
+    font-weight: 500;
+    border:none;
+    margin-top:15px;
+}
+
+.april-monthly-games{
+    width: 100%;
+    height: auto;
+}
