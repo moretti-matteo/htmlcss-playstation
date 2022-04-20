@@ -1,26 +1,25 @@
-
-
-header{
+/* HEADER */
+header {
     position: fixed;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     z-index: 10;
     width: 100%;
 }
 
-.header-top{
+.header-top {
     display: flex;
     background: #000;
     justify-content: flex-end;
     padding: 7px;
 }
 
-.header-top .sony-logo{
+.header-top .sony-logo {
     max-width: 80px;
 }
 
-.header-bottom{
-    padding-right: 7px ;
+.header-bottom {
+    padding-right: 7px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,257 +27,277 @@ header{
 }
 
 
-.hedaer-bottom-right{
+.hedaer-bottom-right {
     display: flex;
     align-items: center;
-    
 }
 
-.hamburger-menu{
+.hamburger-menu {
     width: 40px;
     height: 35px;
     background: none;
     padding: 5px;
 }
 
-.accedi{
-    margin:0 20px 0 10px;
+.accedi {
+    margin: 0 20px 0 10px;
 }
 
-.search{
+.search {
     padding: 10px;
 }
 
-.border-radius{
+.border-radius {
     border-radius: 20px;
 }
 
-.banner-img{
+.banner-img {
     position: relative;
     min-height: 620px;
 }
 
-.hero > .banner-img{
+.hero>.banner-img {
     background: url("../img/jumbo-bg.png");
-    background-position: center;  
+    background-position: center;
     background-size: cover;
 
 }
 
-.navbar{
+.navbar {
     padding: 0;
 }
 
-main{
-    padding-top:90px;
+/* MAIN */
+main {
+    padding-top: 90px;
 }
 
-.hero{
-    margin-bottom: 100px;
-    border:1px solid red;
+/* HERO */
+.hero {
+    padding-bottom: 100px;
     overflow-x: hidden;
 }
 
-.img-content .returnal-logo{
+.img-content .returnal-logo {
     width: 50%;
     height: auto;
 
 }
 
-.img-content{
+.img-content {
     position: absolute;
-    bottom:0;
-    left:0;
-    color:white;
+    bottom: 0;
+    left: 0;
+    color: white;
     margin-bottom: 30px;
 }
 
-.img-content > *{
-    margin-top:30px;
+.img-content>* {
+    margin-top: 30px;
 }
 
+.thumbnail img {
+    transition: 0.25s;
+}
 
+.thumbnail img:hover {
+    margin-top:-15px;
+    cursor: pointer;   
+    transition: 0.25s;
+    box-shadow: 5px 10px 18px #888888;
+}
 
-.img-thumbnail{
-    border:0;
+.img-thumbnail {
+    border: 0;
     border-radius: 20px;
 }
 
-
 /* PS5 SECTION */
 /* PS5 FIRST SECTION*/
-.ps5-section{
-    margin-bottom:25px;
+.ps5-section {
+    margin-bottom: 25px;
 }
 
-.desc-ps5{
+.desc-ps5 {
     text-align: center;
     margin-bottom: 50px;
 }
 
-.desc-ps5 p:first-child{
-    color:rgb(2, 65, 255);
+.desc-ps5 p:first-child {
+    color: rgb(2, 65, 255);
     font-weight: 500;
     margin-bottom: 0;
 }
 
-.console-ps5 button{
-    margin-top:15px;
+.console-ps5 button {
+    margin-top: 15px;
 }
 
 
 /* PS5 SECOND SECTION */
-img.ps5-image{
+img.ps5-image {
     width: 100%;
 }
 
-.carousel img{
+.carousel img {
     width: 100%;
 }
 
-.carousel div:first-child img{
+.carousel img:hover{
+    border-bottom:2px solid #57a2df;
+    cursor: pointer;
+}
+
+.carousel div:first-child img {
     border-bottom: 2px solid #57a2df;
 }
 
 
 /* IT TAKES TWO SECTION */
-
-
-.it-takes-two > .banner-img{
+.it-takes-two>.banner-img {
     background: url("../img/it-takes-two-hero-banner-desktop.jpg");
-    background-position: center;  
+    background-position: center;
     background-size: cover;
 }
 
-.img-content .it-takes-two-logo{
-    width: 50%;    
+.img-content .it-takes-two-logo {
+    width: 50%;
     height: auto;
 }
 
-.it-takes-two h1{
+.it-takes-two h1 {
     margin-bottom: 30px;
 }
 
 /* NEW RELEASE SECTION */
-.new-games{
+.new-games {
     background-color: #0b1009;
-    color:white;
+    color: white;
     padding-top: 10px;
     padding-bottom: 30px;
 }
 
-.new-games img{
+.new-games img {
     width: 100%;
 }
 
-.new-games sup{
+.new-games sup {
     font-size: 10px;
 }
 
 /* PS4 SECTION */
-.ps4-section{
+.ps4-section {
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 
-.desc-ps4{
+.desc-ps4 {
     text-align: center;
-
 }
 
-.ps4-section img{
+.desc-ps4 i {
+    font-size: 10px;
+}
+
+.ps4-section img {
     width: 100%;
 }
 
-/* PS PLUS SECTION */
-.ps-plus{
+/* PS PLUS / PS NOW SECTION */
+.ps-plus {
     background-color: #bebcbb;
     margin-bottom: 60px;
 }
 
-.ps-plus-logo > img,.ps-now-logo > img{
+.ps-plus-logo>img,
+.ps-now-logo>img {
     width: 60%;
 }
 
-.ps-plus-logo{
+.ps-plus-logo {
     padding-top: 40px;
 }
 
-.desc-ps-plus,.desc-ps-now{
+.desc-ps-plus,
+.desc-ps-now {
     font-weight: 500;
-    margin:20px auto;
+    margin: 20px auto;
 }
 
-.ps-plus .btn-secondary{
+.ps-plus .btn-secondary {
     background-color: #d9dadc;
-    color:rgb(2, 65, 255);
+    color: rgb(2, 65, 255);
     font-weight: 500;
-    border:none;
-    margin-top:15px;
+    border: none;
+    margin-top: 15px;
+}
+.ps-now {
+    background-color: #080d14;
+    color: white;
 }
 
-.april-monthly-games{
+.april-monthly-games {
     width: 80%;
     height: auto;
 }
 
 
 /* DISCOUNT SECTION */
-
-.discount{
-    margin-bottom:60px;
+.discount {
+    margin-bottom: 60px;
 }
-.desc-discount{
+
+.desc-discount {
     text-align: center;
 }
-.desc-discount p{
-    margin:30px 0 40px 0;
+
+.desc-discount p {
+    margin: 30px 0 40px 0;
 }
 
-.discount img{
+.discount img {
     width: 100%;
     height: auto;
 }
 
 
-.ps-now{
-    background-color: #080d14;
-    color:white;
-}
 
-/* SOCIALS */
-.socials{
+
+/* SOCIALS SECTION*/
+.socials {
     margin-bottom: 100px;
 }
 
 /* FOOTER */
-footer{
+footer {
     background-color: #00439c;
     padding-top: 50px;
-    color:white;
+    color: white;
 }
 
-.region-ico{
+.region-ico {
     width: 15px;
     height: auto;
-    margin-right:10px;
+    margin-right: 10px;
 }
 
-.ps-logo{
+.ps-logo {
     margin-bottom: 20px;
 }
 
-.footer-top nav ul{
+.footer-top nav ul {
     list-style-type: none;
 }
-.sie-image{
+
+.sie-image {
     width: 120px;
 }
 
-.footer-bottom{
-    margin-top:30px;
+.footer-bottom {
+    margin-top: 30px;
     padding-bottom: 30px;
 }
 
-.footer-bottom i{
+.footer-bottom i {
     font-size: 13px;
 }
