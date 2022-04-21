@@ -11,7 +11,8 @@ header {
     display: flex;
     background: #000;
     justify-content: flex-end;
-    padding: 7px;
+    padding-top:5px;
+    padding-bottom: 5px;
 }
 
 .header-top .sony-logo {
@@ -19,17 +20,18 @@ header {
 }
 
 .header-bottom {
-    padding-right: 7px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #fff;
 }
 
-
-.hedaer-bottom-right {
+.header-bottom-right {
     display: flex;
     align-items: center;
+}
+.header-bottom-right img{
+    width: 25px;
 }
 
 .hamburger-menu {
@@ -44,10 +46,6 @@ header {
     background-color: #363636;
     padding: 5px 15px;
     border:none;
-}
-
-.search {
-    padding: 10px;
 }
 
 .border-radius {
@@ -71,10 +69,12 @@ header {
     padding: 0;
 }
 
+
 /* MAIN */
 main {
-    padding-top: 90px;
+    padding-top: 85px;
 }
+
 
 /* HERO */
 .hero {
@@ -88,7 +88,6 @@ main {
 .img-content .returnal-logo {
     width: 50%;
     height: auto;
-
 }
 
 .img-content {
@@ -161,20 +160,28 @@ img.ps5-image {
 
 .carousel img {
     width: 100%;
-    border-bottom: transparent 2px solid ;
+    height: auto;
 }
 
-.carousel > div:not(:first-child) > img{
+.carousel > div span{
+    border-bottom: transparent 2px solid ;
+    padding-bottom: 20px;
+}
+
+.carousel > div:hover span{
+    border-bottom:2px solid #57a2df;
+}
+
+.carousel > div:not(:first-child)[class*="col-"]{
     opacity: 50%;
 }
 
-.carousel > div > img:hover{
-    border-bottom:2px solid #57a2df;
+.carousel > div[class*="col-"]:hover{
     cursor: pointer;
     opacity: 100%;
 }
 
-.carousel div:first-child img {
+.carousel div:first-child span {
     border-bottom: 2px solid #57a2df;
 }
 
@@ -213,6 +220,7 @@ img.ps5-image {
     font-size: 10px;
 }
 
+
 /* PS4 SECTION */
 .ps4-section {
     margin-top: 40px;
@@ -239,6 +247,7 @@ img.ps5-image {
 .ps4-section .row p{
     font-size: 18px;
 }
+
 
 /* PS PLUS / PS NOW SECTION */
 .ps-plus {
@@ -303,8 +312,6 @@ img.ps5-image {
 }
 
 
-
-
 /* SOCIALS SECTION*/
 .socials {
     margin-bottom: 100px;
@@ -313,6 +320,7 @@ img.ps5-image {
 .socials-title{
     margin-bottom: 20px;
 }
+
 
 /* FOOTER */
 footer {

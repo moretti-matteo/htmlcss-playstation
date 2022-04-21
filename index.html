@@ -18,75 +18,77 @@
 </head>
 
 <body>
-    <header>
 
-        <div class="header-top">
+    <!-- HEADER -->
+    <header>
+        <!-- HEADER TOP -->
+        <div class="header-top container-fluid">
             <img class="sony-logo" src="./img/sony_logo.svg" alt="">
         </div>
 
-        <div class="header-bottom">
+        <!-- HEADER BOTTOM -->
+        <div class="header-bottom container-fluid">
 
+            <!-- HEADER BOTTOM-LEFT -->
             <div class="header-bottom-left">
 
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
-                            <img src="./img/play_logo.svg" alt="playstation logo" class="ps-logo">
-                        </a>
 
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Giochi
-                                    </a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Hardware
-                                    </a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Servizi
-                                    </a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Novità
-                                    </a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Fai acquisti
-                                    </a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Supporto
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/play_logo.svg" alt="playstation logo" class="ps-logo">
+                    </a>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Giochi
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Hardware
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Servizi
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Novità
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Fai acquisti
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Supporto
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </nav>
-
             </div>
 
-            <div class="hedaer-bottom-right">
+            <!-- HEADER BOTTOM-RIGHT -->
+            <div class="header-bottom-right">
 
                 <button type="button" class="btn btn-light hamburger-menu d-lg-none"> <i class="bi bi-list"></i>
                 </button>
 
                 <nav class="navbar navbar-expand-lg navbar-light  d-lg-block d-none">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-black" href="#" id="navbarScrollingDropdown"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -104,13 +106,15 @@
                     </ul>
                 </nav>
                 <button type="button" class="accedi text-white d-lg-block d-none border-radius">Accedi</button>
-                <span class="search d-lg-block d-none"><i class="bi bi-search "></i></span>
+                <img src="./img/lens.svg" alt="">
             </div>
         </div>
-
     </header>
 
+    <!-- MAIN -->
     <main>
+
+        <!-- SECTION HERO -->
         <section class="hero">
             <div class="banner-img">
                 <div class="img-content container-fluid row">
@@ -150,6 +154,7 @@
 
         </section>
 
+        <!-- PS5 SECTION -->
         <section class="ps5-section">
             <div class="container-fluid">
                 <div class="desc-ps5">
@@ -176,11 +181,13 @@
                     </div>
                     <div class="col-4 col-md-2">
                         <img src="./img/joypad-thumb.png" alt="">
-                        <span class="d-none d-md-block"> Controller PS5 wireless DualSense<sup><i class="fa-solid fa-trademark"></i></sup></span>
+                        <span class="d-none d-md-block"> Controller PS5 wireless DualSense<sup><i
+                                    class="fa-solid fa-trademark"></i></sup></span>
                     </div>
                     <div class="col-4 col-md-2">
                         <img src="./img/headset-thumb.png" alt="">
-                        <span class="d-none d-md-block"> Cuffie wireless con microfono PULSE 3<sup><i class="fa-solid fa-trademark"></i></sup></span>
+                        <span class="d-none d-md-block"> Cuffie wireless con microfono PULSE 3<sup><i
+                                    class="fa-solid fa-trademark"></i></sup></span>
                     </div>
                     <div class="col-4 col-md-2">
                         <img src="./img/remote-thumb.png" alt="">
@@ -194,6 +201,7 @@
             </div>
         </section>
 
+        <!-- SECTION IT-TAKES-TWO -->
         <section class="it-takes-two">
             <div class="banner-img">
                 <div class="img-content container-fluid row">
@@ -210,6 +218,7 @@
         </section>
 
 
+        <!-- SECTION NEW-RELEASE -->
         <section class="new-games">
             <div class="container-fluid">
                 <h3>Nuove uscite</h3>
@@ -274,6 +283,7 @@
             </div>
         </section>
 
+        <!-- SECTION PS4 -->
         <section class="ps4-section">
             <div class="container-fluid">
                 <div class="desc-ps4">
@@ -305,10 +315,11 @@
             </div>
         </section>
 
+        <!-- SECTION PS-PLUS -->
         <section class="ps-plus">
             <div class="container-fluid">
                 <div class="row align-items-center">
-                    <div class="col-12 col-md-6 py-sm-5 py-4">
+                    <div class="col-12 col-md-6 py-sm-5 py-4 py-md-0">
                         <div class="ps-plus-logo">
                             <img src="./img/ps-plus-logo.png" alt="">
                             <p class="desc-ps-plus">Migliora la tua esperienza PlayStation con l'accesso a
@@ -325,6 +336,7 @@
             </div>
         </section>
 
+        <!-- SECTION DISCOUNT -->
         <section class="discount">
             <div class="container-fluid">
                 <div class="desc-discount">
@@ -347,6 +359,7 @@
             </div>
         </section>
 
+        <!-- SECTION PS-NOW -->
         <section class="ps-now">
             <div class="container-fluid">
                 <div class="row align-items-center">
@@ -365,6 +378,7 @@
             </div>
         </section>
 
+        <!-- SECTION SOCIALS -->
         <section class="socials">
             <div class="container-md">
                 <div class="socials-title text-center m-5">
@@ -385,11 +399,13 @@
                     </div>
                 </div>
             </div>
-
         </section>
     </main>
 
+    <!-- FOOTER -->
     <footer>
+
+        <!-- FOOTER TOP -->
         <div class="container-fluid">
             <div class="footer-top row gy-md-5">
                 <div class="col-12 col-lg-6 mb-3">
@@ -399,8 +415,7 @@
                     <small>
                         <img class="region-ico" src="./img/language-globe.svg" alt="">
                         <span>Country / Region: Italy</span>
-                    </small> 
-
+                    </small>
                 </div>
                 <div class="col-12 col-md-4 col-lg-2 ">
                     <nav>
@@ -436,6 +451,8 @@
                     </nav>
                 </div>
             </div>
+
+            <!-- FOOTER BOTTOM -->
             <div class="footer-bottom">
                 <div class="row">
                     <div class="col-md-12 col-lg-6">
@@ -446,12 +463,9 @@
                             copyright dei rispettivi proprietari. Tutti i diritti riservati. <a class="text-white"
                                 href="#">Maggiori info</a></p>
                     </div>
-
                 </div>
-
             </div>
         </div>
     </footer>
 </body>
-
 </html>
