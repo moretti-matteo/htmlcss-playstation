@@ -41,6 +41,9 @@ header {
 
 .accedi {
     margin: 0 20px 0 10px;
+    background-color: #363636;
+    padding: 5px 15px;
+    border:none;
 }
 
 .search {
@@ -54,6 +57,7 @@ header {
 .banner-img {
     position: relative;
     min-height: 620px;
+    padding-bottom: 30px;
 }
 
 .hero>.banner-img {
@@ -75,7 +79,10 @@ main {
 /* HERO */
 .hero {
     padding-bottom: 100px;
-    overflow-x: hidden;
+}
+
+.hero .col-lg-4 > *{
+    margin-top:20px
 }
 
 .img-content .returnal-logo {
@@ -89,10 +96,10 @@ main {
     bottom: 0;
     left: 0;
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
-.img-content>* {
+.img-content .col-lg-4 {
     margin-top: 30px;
 }
 
@@ -100,7 +107,12 @@ main {
     transition: 0.25s;
 }
 
+.thumbnail div.col-6:first-child img{
+    border:2px solid #0063c9;
+}
+
 .thumbnail img:hover {
+    border:2px solid #0063c9;
     margin-top:-15px;
     cursor: pointer;   
     transition: 0.25s;
@@ -129,6 +141,14 @@ main {
     margin-bottom: 0;
 }
 
+.desc-ps5 p:last-child{
+    margin-top:25px;
+}
+
+.ps5-title{
+    margin-bottom: 20px;
+}
+
 .console-ps5 button {
     margin-top: 15px;
 }
@@ -141,11 +161,17 @@ img.ps5-image {
 
 .carousel img {
     width: 100%;
+    border-bottom: transparent 2px solid ;
 }
 
-.carousel img:hover{
+.carousel > div:not(:first-child) > img{
+    opacity: 50%;
+}
+
+.carousel > div > img:hover{
     border-bottom:2px solid #57a2df;
     cursor: pointer;
+    opacity: 100%;
 }
 
 .carousel div:first-child img {
@@ -154,6 +180,8 @@ img.ps5-image {
 
 
 /* IT TAKES TWO SECTION */
+
+
 .it-takes-two>.banner-img {
     background: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center;
@@ -171,10 +199,10 @@ img.ps5-image {
 
 /* NEW RELEASE SECTION */
 .new-games {
-    background-color: #0b1009;
+    background-color: #1f1f1f;
     color: white;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .new-games img {
@@ -193,6 +221,7 @@ img.ps5-image {
 
 .desc-ps4 {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .desc-ps4 i {
@@ -201,6 +230,14 @@ img.ps5-image {
 
 .ps4-section img {
     width: 100%;
+}
+
+.ps4-section .row h1{
+    margin-bottom: 20px;
+}
+
+.ps4-section .row p{
+    font-size: 18px;
 }
 
 /* PS PLUS / PS NOW SECTION */
@@ -232,12 +269,17 @@ img.ps5-image {
     margin-top: 15px;
 }
 .ps-now {
-    background-color: #080d14;
+    background-color: #161c3b;
     color: white;
 }
 
+.btn-ps-now{
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
 .april-monthly-games {
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
@@ -268,10 +310,14 @@ img.ps5-image {
     margin-bottom: 100px;
 }
 
+.socials-title{
+    margin-bottom: 20px;
+}
+
 /* FOOTER */
 footer {
     background-color: #00439c;
-    padding-top: 50px;
+    padding-top: 60px;
     color: white;
 }
 
@@ -281,12 +327,21 @@ footer {
     margin-right: 10px;
 }
 
-.ps-logo {
+.ps-logo-footer{
     margin-bottom: 20px;
 }
 
 .footer-top nav ul {
     list-style-type: none;
+}
+
+.footer-top nav a{
+    color:white;
+    text-decoration: none;
+}
+
+.footer-top nav a:hover{
+    text-decoration: underline;
 }
 
 .sie-image {
@@ -301,3 +356,4 @@ footer {
 .footer-bottom i {
     font-size: 13px;
 }
+
