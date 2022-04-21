@@ -1,3 +1,39 @@
+/* BUTTONS COMMONS */
+button{
+    color:white;
+    padding: 6px 15px;
+}
+
+/* BUTTONS RED */
+.buy-now{
+    border:1px solid black;
+    background-color: red;
+}
+
+.border-button-red{
+    border:2px solid transparent;
+}
+
+.border-button-red:hover{
+    border:2px solid red;
+}
+
+/* BUTTONS BLUE */
+.info{
+    background-color: #0b5ed7;
+    border:1px solid white;
+}
+
+.border-button-blue{
+    border:2px solid transparent;
+
+}
+
+.border-button-blue:hover{
+    border:2px solid #0b5ed7;
+    
+}
+
 /* HEADER */
 header {
     position: fixed;
@@ -42,10 +78,19 @@ header {
 }
 
 .accedi {
-    margin: 0 20px 0 10px;
     background-color: #363636;
-    padding: 5px 15px;
-    border:none;
+    padding: 6px 15px;
+    border:1px solid white;
+    
+}
+
+.border-button-accedi{
+    margin: 0 20px 0 10px;
+    border:2px solid transparent;
+}
+
+.border-button-accedi:hover{
+    border:2px solid #363636;
 }
 
 .border-radius {
@@ -148,18 +193,18 @@ main {
     margin-bottom: 20px;
 }
 
-.console-ps5 button {
+.console-ps5 span {
     margin-top: 15px;
 }
 
 
 /* PS5 SECOND SECTION */
 img.ps5-image {
-    width: 100%;
+    width: 90%;
 }
 
 .carousel img {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
@@ -285,6 +330,7 @@ img.ps5-image {
 .btn-ps-now{
     font-weight: 500;
     padding: 5px 10px;
+    color:black;
 }
 
 .april-monthly-games {
