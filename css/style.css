@@ -5,7 +5,7 @@ button{
 }
 
 /* BUTTONS RED */
-.buy-now{
+.btn-buy-now{
     border:1px solid black;
     background-color: red;
 }
@@ -19,7 +19,7 @@ button{
 }
 
 /* BUTTONS BLUE */
-.info{
+.btn_info{
     background-color: #0b5ed7;
     border:1px solid white;
 }
@@ -33,6 +33,24 @@ button{
     border:2px solid #0b5ed7;
     
 }
+
+/* BUTTONS DARK */
+.btn-accedi {
+    background-color: #363636;
+    padding: 6px 15px;
+    border:1px solid white;
+    
+}
+
+.border-button-accedi{
+    margin: 0 20px 0 10px;
+    border:2px solid transparent;
+}
+
+.border-button-accedi:hover{
+    border:2px solid #363636;
+}
+
 
 /* HEADER */
 header {
@@ -78,21 +96,6 @@ header {
     border:1px solid rgba(4,4,4,.5);
 }
 
-.accedi {
-    background-color: #363636;
-    padding: 6px 15px;
-    border:1px solid white;
-    
-}
-
-.border-button-accedi{
-    margin: 0 20px 0 10px;
-    border:2px solid transparent;
-}
-
-.border-button-accedi:hover{
-    border:2px solid #363636;
-}
 
 .border-radius {
     border-radius: 20px;
@@ -137,15 +140,12 @@ main {
 }
 
 .img-content {
-    position: absolute;
-    bottom: 0;
-    left: 0;
     color: white;
     margin-bottom: 50px;
 }
 
 .img-content .col-lg-4 {
-    margin-top: 30px;
+    padding-top: 200px;
 }
 
 .thumbnail img {
@@ -233,20 +233,18 @@ img.ps5-image {
 
 
 /* IT TAKES TWO SECTION */
-
-
-.it-takes-two>.banner-img {
+.banner > .banner-img {
     background: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center;
     background-size: cover;
 }
 
-.img-content .it-takes-two-logo {
+.img-content .banner-logo {
     width: 50%;
     height: auto;
 }
 
-.it-takes-two h1 {
+.banner h1 {
     margin-bottom: 30px;
 }
 
